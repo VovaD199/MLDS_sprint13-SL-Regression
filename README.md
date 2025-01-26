@@ -6,7 +6,7 @@
 
 You are tasked with creating a Python script that:
 1. Implements **Linear Regression** to predict a target variable from features in a CSV file.
-2. Evaluates the model using **Mean Absolute Error (MAE)**, **Mean Squared Error (MSE)**, **Root Mean Squared Error (RMSE)**, and **R-Squared (R²)**.
+2. Evaluates the model using **Mean Absolute Error (MAE)**, **Mean Squared Error (MSE)**, **Root Mean Squared Error (RMSE)**.
 3. Reads data from a CSV file, ensuring the file isn't empty.
 4. Visualizes the relationship between the feature and target variable using **Matplotlib**.
 5. Includes **unit tests** to:
@@ -60,7 +60,7 @@ Feature,Target
 
 3. **`linear_regression_with_metrics(data, x_column, y_column)`**:
    - Trains a Linear Regression model using `scikit-learn`.
-   - Evaluates the model using metrics: MAE, MSE, RMSE, R².
+   - Evaluates the model using metrics: MAE, MSE, RMSE.
    - Visualizes the regression line over the test data.
 
 #### **`test/test_linear_regression.py`**
